@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dts_earth": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "db_vision",
+    "password": "abc13579",
+    "name": "dts_earth",
+    "user": "cuong104",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

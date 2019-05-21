@@ -1,0 +1,31 @@
+{
+  "name": "Continent",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "as_known_as": {
+      "type": "string"
+    },
+    "total_area": {
+      "type": "number",
+      "required": true
+    },
+    "population": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
